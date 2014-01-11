@@ -1,0 +1,14 @@
+{
+  "name": "webAudio basics",
+  "version": "1.0.0",
+  "dependencies": {
+    "font-awesome": "~3.1.1",
+    "bootstrap": "*",
+    "jquery": "*",
+    "underscore": "*",
+    "backbone": "*",
+    "d3": "~3.0",
+    "handlebars": "*",
+    "bluebird": "~0.3.0"
+  }
+}
