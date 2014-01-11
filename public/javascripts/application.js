@@ -1,6 +1,20 @@
 (function() {
   var app = {};
 
+
+  //Backbone Code goes here
+
+
+
+
+
+
+
+
+
+
+
+
   //stub code to load templates
   app.loadTemplates = function() {
     window.templates = {};
@@ -13,10 +27,12 @@
 
   app.init = function() {
     this.loadTemplates();
+
+    //actually initialize our objects
+
   };
 
 
-
-
-
+  //starts our app
+  $(_.bind(app.init, app));
 }).call(this);
