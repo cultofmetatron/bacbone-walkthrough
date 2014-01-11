@@ -1,7 +1,14 @@
-doctype 5
+doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+    script(src="/components/jquery/jquery.js")
+    script(src="/components/underscore/underscore.js")
+    script(src="/components/bootstrap/dist/js/bootstrap.js")
+    script(src="/components/backbone/backbone.js")
+    script(src="/javascripts/bluebird.js")
+
+ body
     block content
